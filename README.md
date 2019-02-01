@@ -22,6 +22,16 @@ android:layout_width="@dimen/_10swdp"
 android:layout_height="@dimen/_10swdp"
 ```
 
+# **注意！！！**
+
+在SmallestWidthDP生成文件后，需要将SmallestWidth最小(下图最小的是330)的dimen_swdp.xml复制一份到values目录下。否则，在SmallestWidth小于330的设备上会因找不到匹配文件而发生错误。
+
+![](screenshot/pic4.png)
+
+
+-------
+
+
 Enjoy!!!
 
 
