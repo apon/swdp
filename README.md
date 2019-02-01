@@ -13,6 +13,7 @@ swdp是一个具有缩放功能的尺寸单位。swdp能够根据屏幕的大小
 
 3.配置SmallestWidthDP，这里SmallestWidth使用默认配置，**design width设置为300**。
 ![](screenshot/pic3.png)
+
 4.点击生成按钮，SmallestWidthDP会在{ProjectPath}/app/src/main/res目录项生成values-sw{xx}dp目录及dimen_swdp.xml文件。至此就可以使用swdp作为布局单位进行布局了。如在**design width为300px**的设计稿上，标注为10px尺寸就可以在布局里用_10swdp表示了。
 
 
